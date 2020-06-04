@@ -1,0 +1,60 @@
+/* CSS Document */
+
+
+body{
+	margin:0;
+	padding:0;
+}
+
+.inform{
+	background:url(gallery/juss4.jpg) 0px 0px fixed;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	color:#fff;
+}
+
+.inform_form{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.form-left{
+	padding-left: 0;
+}
+
+.inform input[type="id"],input[type="product_name"],input[type="quantity"],input[type="price"],input[type="stock_date"],input[type="sells_date"]{
+	width: 100%;
+	color: #fff;
+	background: none;
+	outline: none;
+	font-size: 1em;
+	padding: 0.8em 1em;
+	margin-bottom: 2em;
+	border: none;
+	border-bottom: solid 2px #fff;
+	display: inline-block;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+.inform input[type="submit"]{
+	outline: none;
+	color:#fff;
+	padding: 0.7em 1em;
+	font-size: 14px;
+	margin: 1em 0 0 0;
+	border: 1px solid #fff;
+	background: #ff4f81;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	-o-transition: 0.5s all;
+
+}
+
